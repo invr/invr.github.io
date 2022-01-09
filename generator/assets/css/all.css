@@ -1,0 +1,18 @@
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: .75rem; }
+.rounded-6 { border-radius: 1rem; }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.modal-alert .modal-dialog {
+  width: 380px;
+}
