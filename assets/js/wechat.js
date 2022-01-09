@@ -35,10 +35,10 @@ function alert(message, type, icon) {
         let disgust_num = disgust_input.value * 1
 
         if (desire_num < 0 || desire_num > 9) {
-            desire_tip.innerHTML = "Numbers in 0~9 are allowed."
+            desire_tip.innerHTML = "Numbers in 0~9 are allowed"
             this.classList.add("is-invalid")
         } else if (desire_input.value !== "" && disgust_input.value !== "" && desire_num === disgust_num) {
-            desire_tip.innerHTML = "You disgust this number."
+            desire_tip.innerHTML = "You disgust this number"
             this.classList.add("is-invalid")
         } else {
             this.classList.add("is-valid")
