@@ -1,0 +1,33 @@
+.dropdown-menu {
+    position: static;
+    display: block;
+    width: auto;
+    margin: 4rem auto;
+}
+
+.clickable:hover {
+    background-color: #d2f4ea;
+}
+
+.clickable_dark:hover {
+    background-color: #495057;
+}
+
+.custom-popover {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-primary);
+    --bs-popover-header-bg: var(--bs-primary);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+.hello {
+    width: 55%;
+}
+
+@media (max-width: 576px) {
+    .hello {
+        width: 80%;
+    }
+}
